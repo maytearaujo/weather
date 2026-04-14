@@ -1,0 +1,16 @@
+.weather-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weather-card h2 {
+  margin-top: 0;
+}
+
+.weather-card p {
+  margin: 10px 0;
+}

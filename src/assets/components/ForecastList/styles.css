@@ -1,0 +1,39 @@
+.forecast-list {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.forecast-list h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.forecast-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forecast-item {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #eee;
+}
+
+.forecast-item:first-of-type {
+  border-top: none;
+}
+
+.forecast-item strong {
+  color: #333;
+}
+
+.forecast-item span {
+  color: #555;
+}
